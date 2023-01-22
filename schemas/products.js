@@ -22,5 +22,10 @@ export default {
         },
       ],
     },
+    {
+      name: 'description',
+      type: 'richText',
+      title: 'Description',
+    },
   ],
 }
