@@ -13,5 +13,14 @@ export default {
       type: 'number',
       title: 'Price',
     },
+    {
+      name: 'category',
+      type: 'reference',
+      to: [
+        {
+          type: 'category',
+        },
+      ],
+    },
   ],
 }
