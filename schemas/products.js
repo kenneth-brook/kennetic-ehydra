@@ -27,5 +27,14 @@ export default {
       type: 'richText',
       title: 'Description',
     },
+    {
+      name: 'store',
+      type: 'reference',
+      to: [
+        {
+          type: 'store',
+        },
+      ],
+    },
   ],
 }
