@@ -12,7 +12,7 @@ export default {
     },
     {
       name: 'price',
-      type: 'number',
+      type: 'string',
       title: 'Price',
     },
     {
@@ -41,6 +41,15 @@ export default {
     {
       name: 'images',
       type: 'images',
+    },
+    {
+      name: 'blank',
+      type: 'reference',
+      to: [
+        {
+          type: 'blanks',
+        },
+      ],
     },
   ],
 }
