@@ -1,3 +1,5 @@
+import images from './images'
+
 export default {
   name: 'product',
   type: 'document',
@@ -35,6 +37,10 @@ export default {
           type: 'store',
         },
       ],
+    },
+    {
+      name: 'images',
+      type: 'images',
     },
   ],
 }
